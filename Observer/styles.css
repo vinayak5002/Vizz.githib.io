@@ -37,6 +37,15 @@ h4{
   background-color: white;
   border-radius: 20px;
 }
+.navbt:hover {
+  /* CLASS */
+  /* navigation button settings */
+  padding: 10px;
+  color: black;
+  border-color: orange;
+  background-color: orange;
+  border-radius: 20px;
+}
 .navbt {
   /* CLASS */
   /* navigation button settings */
