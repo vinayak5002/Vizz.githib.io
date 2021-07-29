@@ -114,7 +114,7 @@ h4{
 #to-top{
   display: "none";
   position: fixed;
-  right: 10px;
+  left: 10px;
   bottom: 0px;
 }
 #drop{
