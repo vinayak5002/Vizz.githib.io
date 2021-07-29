@@ -113,8 +113,8 @@ function dark(){
 
     var darkCard = document.getElementsByClassName("card");
     for(var i=0; i<darkCard.length; i++){
-        darkCard[i].style.backgroundColor = "rgb(100, 100, 100)";
-        darkCard[i].style.border = "solid rgb(100, 100, 100) 3px";
+        darkCard[i].style.backgroundColor = "rgb(43, 43, 43)";
+        darkCard[i].style.border = "solid rgb(43, 43, 43) 3px";
     }
 
     var darkFeed = document.getElementsByClassName("feed");
@@ -136,6 +136,6 @@ function dark(){
     var top = document.getElementById("top-btn");
     top.src = "./images/dark top.png";
 
-    document.body.style.background = "rgb(53, 53, 53)";
+    document.body.style.background = "rgb(48, 48, 48)";
 }
 

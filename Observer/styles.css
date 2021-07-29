@@ -1,6 +1,5 @@
 body {
   /* font settings for the news content */
-  width: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0px;
   padding: 0px;
@@ -35,15 +34,6 @@ h4{
   color: black;
   border-color: white;
   background-color: white;
-  border-radius: 20px;
-}
-.navbt:hover {
-  /* CLASS */
-  /* navigation button settings */
-  padding: 10px;
-  color: black;
-  border-color: orange;
-  background-color: orange;
   border-radius: 20px;
 }
 .navbt {
@@ -91,6 +81,9 @@ h4{
   background-color: white;
   border-radius: 20px;
 }
+#add{
+  display: none;
+}
 #title {
   /* ID */
   /* settings for the title */
@@ -123,4 +116,55 @@ h4{
   position: fixed;
   right: 10px;
   bottom: 0px;
+}
+#drop{
+  display: none;
+}
+
+@media only screen  and (max-width: 700px){
+  body{
+    width: 100%;
+  }
+  #title {
+    /* ID */
+    /* settings for the title */
+    width: 100%;
+    text-align: center;
+    border: solid rgb(236, 227, 227);
+    background-color: rgb(236, 227, 227);
+    font-size: 3rem;
+  }
+  #cat{
+    font-size: 2rem;
+  }
+  .row{
+    padding: 1%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    max-height: 300px;
+  }
+  #butns{
+    display: none;
+  }
+  #add{
+    margin-right: 1.5em;
+    display: block;
+    display: flex;
+  }
+  #menu{
+    margin-left: auto;
+  }
+  #sign{
+    display: none;
+  }
+  #drop{
+    display: none;
+    text-align: left;
+  }
+  #realnav{
+    display: none;
+  }
 }

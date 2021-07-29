@@ -14,6 +14,7 @@
     localStorage.setItem("counter", "0");
 </script>
 <script src="./API.js"></script>
+<script src="./response.js"></script>
 <script>
     Load();
 </script>
@@ -25,7 +26,7 @@
         <span style="color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">The Observer</span>
     </div>
 
-    <div style="text-align: right; padding-top: 5px;">
+    <div id="sign" style="text-align: right; padding-top: 5px;">
         <a href="#"> <button class="sign-btn" > Sign in </button></a>
         <a href="#"> <button class="sign-btn" > Sign up </button></a></a>
         <button id="mode-btn" onclick="darkLight()" ><i id="mode" class="fas fa-moon"></i></button>
@@ -34,17 +35,41 @@
 
     <!-- navigation bar, buttons -->
     <div id="nav">
-        <button onclick="change(this)" class="navbt">Home</button></a>
-        <button onclick="change(this)" class="navbt">Automobile</button>
-        <button onclick="change(this)" class="navbt">Business</button>
-        <button onclick="change(this)" class="navbt">Education</button>
-        <button onclick="change(this)" class="navbt">Entertainment</button>
-        <button onclick="change(this)" class="navbt">Hatke</button>
-        <button onclick="change(this)" class="navbt">World</button>
-        <button onclick="change(this)" class="navbt">Politics</button>
-        <button onclick="change(this)" class="navbt">Science</button>
-        <button onclick="change(this)" class="navbt">Sports</button>
-        <button onclick="change(this)" class="navbt">Technology</button>
+        <div id="add">
+            <div id="mode-bt">
+                <button id="mode-btn" class="mode-bt" onclick="darkLight()" ><i id="mode" class="fas fa-moon"></i></button>
+            </div>
+            <div id="menu">
+                <button onclick="Drop()" id="mode-btn"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"/></i></button>
+            </div>
+        </div>
+        <ul id="drop" style="list-style-type:none;">
+            <li><button onclick="change(this); Drop();" class="navbt">Home</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Automobile</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Business</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Education</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Entertainment</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Hatke</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">World</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Politics</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Science</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Sports</button></li>
+            <li><button onclick="change(this); Drop();" class="navbt">Technology</button></li>
+        </ul>
+        <div id="realnav">
+            <button onclick="change(this)" class="navbt">Home</button>
+            <button onclick="change(this)" class="navbt">Automobile</button>
+            <button onclick="change(this)" class="navbt">Business</button>
+            <button onclick="change(this)" class="navbt">Education</button>
+            <button onclick="change(this)" class="navbt">Entertainment</button>
+            <button onclick="change(this)" class="navbt">Hatke</button>
+            <button onclick="change(this)" class="navbt">World</button>
+            <button onclick="change(this)" class="navbt">Politics</button>
+            <button onclick="change(this)" class="navbt">Science</button>
+            <button onclick="change(this)" class="navbt">Sports</button>
+            <button onclick="change(this)" class="navbt">Technology</button>
+        </div>
+        
     </div>
     
     <div class="feed">
