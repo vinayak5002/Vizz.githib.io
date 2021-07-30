@@ -41,9 +41,9 @@ h4{
   /* navigation button settings */
   padding: 10px;
   color: black;
-  border-color: white;
-  background-color: white;
-  border-radius: 20px;
+  /* border-color: white;
+  background-color: white; */
+  border-radius: 10px;
 }
 .feed {
   /* CLASS */
@@ -125,6 +125,10 @@ h4{
   body{
     width: 100%;
   }
+  ul{
+    padding: 0 1em;
+    margin-bottom: 0.5em;
+  }
   #title {
     /* ID */
     /* settings for the title */
@@ -146,11 +150,31 @@ h4{
   img{
     max-height: 300px;
   }
+  #mode-btn_{
+    padding: 4px;
+    color: black;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0.5em;
+  }
+  .mode-bt{
+    padding: 8px;
+    color: black;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0.5em;
+  }
+  .navbt{
+    background-color: white;
+    margin-bottom: 0.5em;
+  }
   #butns{
     display: none;
   }
   #add{
-    margin-right: 1.5em;
+    margin-right: 0.5em;
     display: block;
     display: flex;
   }
@@ -161,6 +185,7 @@ h4{
     display: none;
   }
   #drop{
+    margin-left: 0;
     display: none;
     text-align: left;
   }

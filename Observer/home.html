@@ -36,25 +36,25 @@
     <!-- navigation bar, buttons -->
     <div id="nav">
         <div id="add">
-            <div id="mode-bt">
-                <button id="mode-btn" class="mode-bt" onclick="darkLight()" ><i id="mode" class="fas fa-moon"></i></button>
+            <div>
+                <button id="mode-btn_" onclick="darkLight()" ><i id="mode" class="fas fa-moon"></i></button>
             </div>
             <div id="menu">
-                <button onclick="Drop()" id="mode-btn"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"/></i></button>
+                <button onclick="Drop()" class="mode-bt"><i class="fas fa-bars"></i></button>
             </div>
         </div>
         <ul id="drop" style="list-style-type:none;">
-            <li><button onclick="change(this); Drop();" class="navbt">Home</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Automobile</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Business</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Education</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Entertainment</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Hatke</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">World</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Politics</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Science</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Sports</button></li>
-            <li><button onclick="change(this); Drop();" class="navbt">Technology</button></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Home</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Automobile</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Business</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Education</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Entertainment</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Hatke</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">World</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Politics</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Science</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Sports</div></li>
+            <li><div onclick="change(this); Drop();" class="navbt">Technology</div></li>
         </ul>
         <div id="realnav">
             <button onclick="change(this)" class="navbt">Home</button>
@@ -210,7 +210,7 @@
         <li>
             <form name="comment" onsubmit="checkempty();return false;">
                 <p>Leave a comment: </p>
-                <textarea name="comment" id="comment" cols="60%" rows="10"></textarea>
+                <textarea name="comment" cols="30%" id="comment" rows="10"></textarea>
                 <input type="submit" value="Post">
             </form>
         </li>

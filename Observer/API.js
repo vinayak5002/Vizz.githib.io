@@ -73,6 +73,9 @@ function light(){
     var modeBtn = document.getElementById("mode-btn");
     modeBtn.innerHTML  = '<i id="mode" class="fas fa-moon">';
 
+    var modeBtn = document.getElementById("mode-btn_");
+    modeBtn.innerHTML  = '<i id="mode" class="fas fa-moon">';
+
     var lightNav = document.getElementById("nav");
     lightNav.style.backgroundColor = "tomato";
 
@@ -106,6 +109,9 @@ function light(){
 
 function dark(){
     var modeBtn = document.getElementById("mode-btn");
+    modeBtn.innerHTML  = '<i id="mode" class="fas fa-sun">';
+
+    var modeBtn = document.getElementById("mode-btn_");
     modeBtn.innerHTML  = '<i id="mode" class="fas fa-sun">';
 
     var darkNav = document.getElementById("nav");
