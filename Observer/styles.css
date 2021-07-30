@@ -41,8 +41,17 @@ h4{
   /* navigation button settings */
   padding: 10px;
   color: black;
-  /* border-color: white;
-  background-color: white; */
+  border-color: white;
+  background-color: white;
+  border-radius: 10px;
+}
+.navbt:hover {
+  /* CLASS */
+  /* navigation button settings */
+  padding: 10px;
+  color: white;
+  border-color: rgb(255, 173, 21);
+  background-color: rgb(255, 173, 21);
   border-radius: 10px;
 }
 .feed {
