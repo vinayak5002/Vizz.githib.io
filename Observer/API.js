@@ -7,6 +7,7 @@ var more = 0, start = 5, end = 10;
 function change(cat){
     window.scrollTo(0, 0);
     document.getElementById("cat").innerHTML = cat.innerHTML;
+    document.getElementById("read-more").innerHTML = "Read More";
     if(cat.innerHTML === "Home"){
         temp = "all_news"
     }
