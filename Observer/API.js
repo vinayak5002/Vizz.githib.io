@@ -45,6 +45,9 @@ function Load(){
             document.getElementById(`img${i+1}`).src = data.articles[i].image_url;
             document.getElementById(`txt${i+1}`).innerHTML = data.articles[i].description;
         }
+        if(counter % 2 !== 0){
+            dark();
+        }
     });
 }
 
