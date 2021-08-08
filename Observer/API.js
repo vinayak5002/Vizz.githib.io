@@ -8,6 +8,7 @@ function change(cat){
     window.scrollTo(0, 0);
     document.getElementById("cat").innerHTML = cat.innerHTML;
     document.getElementById("read-more").innerHTML = "Read More";
+    document.getElementById("news").innerHTML = '<div class="loader"></div>';
     if(cat.innerHTML === "Home"){
         temp = "all_news"
     }
